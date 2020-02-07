@@ -49,7 +49,7 @@ When criteris check is failed need to do somehting to restore validness of the i
 
 Sometimes when the condition for interval is failed inteval has lenght of 1. And there is no way to move left pointer forward bacause it going to step over the right pointer. In this case need to move all interval 1 step worard. Expand and Shring in one step.
 
-![When condition is failed and inteval lenght is 1, just more interval forward](lc1004/move.png)
+![When condition is failed and inteval lenght is 1, just more interval forward.](lc1004/move.png)
 
 ## Sliding window solution for the problem.
 
