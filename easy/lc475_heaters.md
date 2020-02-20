@@ -8,9 +8,14 @@ When starting to solve a task, important part is to define what we really need t
 
 On the picture nearest heater fro houses #1 and #2 is `H1` and nearest for home three is `H2`.  Shortest Distance from Home1 to `H1` is 2, from Home2 to `H1` is 1, and from Home3 to `H2` is 2 again. So maximum nearest heater to a house stays in 2 point, this is the answer.
 
+![We are seeking for a maximum value of nearest distance from a home to a heater.](lc475/01.png)
+
 ## Some interesting rule.
 
 For example nearest heater `Hi` found for a house1. The distance till `Hi` is smaller for house1 then distance till left one `Hi-1`, and right one `Hi+1` heaters.  So for the next house: house2, as a nearest heaters we need to consider only `Hi` and heaters that stay further right way. Because as house2 has moved forward from house1 distance between house2 and `Hi-1` even greater than distance between house1 and `Hi-1` so we can eliminate `Hi-1` from consideration.
+
+![When we found nearest heater for a home, search for next home started from the same heater.](lc475/02.png)
+
 
 ## The algorithm is ready.
 
