@@ -1,6 +1,6 @@
 # In search of fixed radius.
 
-Some times some tasks marked as like easy ones on Leetocde, nevertheless they harder then most part of medium tasks. And to solve them need to involve significant amount of considerations. One of this tasks is ["Leetcode: 475. Heaters"](https://leetcode.com/problems/heaters/), where required to find minimum fixed radius of heater to warm a houses. Houses and Heaters represented as two arrows of positive coordinates on line. More detail description could be extracted from source I will not spend place here.
+Some times some tasks marked as like easy ones on Leetcode, nevertheless they harder then most part of medium tasks. And to solve them need to involve significant amount of considerations. One of this tasks is ["Leetcode: 475. Heaters"](https://leetcode.com/problems/heaters/), where required to find minimum fixed radius of heater to warm a houses. Houses and Heaters represented as two arrows of positive coordinates on line. More detail description could be extracted from source I will not spend place here.
 
 ## What do we looking for?
 
